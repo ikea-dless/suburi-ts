@@ -1,6 +1,10 @@
 {
   "name": "ts-counter",
   "version": "1.0.0",
+  "scripts": {
+    "build": "yarn run webpack",
+    "server": "yarn run webpack-dev-server"
+  },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
